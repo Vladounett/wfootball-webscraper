@@ -9,8 +9,12 @@
     <h1>Browse different leagues</h1>
     <nav>
     <ul>
-        <li><a href="{{ url_for('main.wsl_data') }}">Women's super league</a></li>
-        <li><a href="{{ url_for('main.pl_fra_data') }}">Arkema Première League</a></li>
+        <li><a href="{{ url_for('leagues.wsl_data') }}">Women's super league</a></li>
+        <li><a href="{{ url_for('leagues.pl_fra_data') }}">Arkema Première League</a></li>
+        <li><a href="{{ url_for('leagues.bundes_data') }}">Frauen-Bundesliga</a></li>
+        <li><a href="{{ url_for('leagues.liga_data') }}">Liga F</a></li>
+        <li><a href="{{ url_for('leagues.seriea_data') }}">Serie A Women</a></li>
+        <li><a href="{{ url_for('leagues.nwsl_data') }}">National Women's Soccer League</a></li>
     </ul>
     </nav>
 </body>
